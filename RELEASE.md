@@ -1,4 +1,14 @@
 # RELEASE NOTES
+## 1.0.4+19026
+**2019-01-26
++ Removed redundant fish functions.
++ Added functions to spawn different shells in terminal.
++ Remove dedundant tmux scripts.
++ Removed redundant bash functions.
++ Updated fish and bash configurations.
++ Added icons.
++ General environment clean up.
+
 ## 1.0.3+17273-00
 **2017-09-30
 + Removed redundant files.
