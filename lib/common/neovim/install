@@ -1,0 +1,18 @@
+#!/bin/zsh
+
+_neovim_config_path=$HOME/.config/nvim
+_neovim_config_file=init.vim
+
+function install_neovim_config () {
+	# create directories if they don't exist
+	mkdir -p "$_neovim_config_path"
+	mkdir -p "$_neovim_config_path/plugs"
+	# install/pugrade pip3
+	# install pynvim
+	pip3 install --user pynvim
+	# link configuration file
+	ln -s "$PWD/$_neovim_config_file" "$_neovim_config_path/$_neovim_config_file"
+}
+
+install_neovim_config
+
