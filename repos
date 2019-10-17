@@ -1,116 +1,23 @@
-Algorithm
-origin	https://github.com/CosmicMind/Algorithm.git (fetch)
-origin	https://github.com/CosmicMind/Algorithm.git (push)
-* development
-
-apple-xcode-xvim
-origin	git@github.com:XVimProject/XVim.git (fetch)
-origin	git@github.com:XVimProject/XVim.git (push)
-* master
-
-apple-xcode-xvim2
-origin	https://github.com/XVimProject/XVim2.git (fetch)
-origin	https://github.com/XVimProject/XVim2.git (push)
-* master
-
-axler8tor-stdenv.d
-origin	ssh://git@github.com/axlm/clinit.git (fetch)
-origin	ssh://git@github.com/axlm/clinit.git (push)
-* master
-
-axler8tor-stdenv.d.1
-origin	https://github.com/axler8tor/stdcfg.d.git (fetch)
-origin	https://github.com/axler8tor/stdcfg.d.git (push)
-* develop
-  master
-
-elixir-lib-component
-origin	https://github.com/pragdave/component.git (fetch)
-origin	https://github.com/pragdave/component.git (push)
-  list
-* master
-
-erlang-otp
-origin	https://github.com/erlang/otp.git (fetch)
-origin	https://github.com/erlang/otp.git (push)
-* master
-
-erlang-tools-rebar3
-origin	https://github.com/erlang/rebar3.git (fetch)
-origin	https://github.com/erlang/rebar3.git (push)
-* master
-
-fish-util-fpm
-origin	https://github.com/axler8tor/fisher.git (fetch)
-origin	https://github.com/axler8tor/fisher.git (push)
-* master
-
-github-gitignore
-origin	https://github.com/github/gitignore.git (fetch)
-origin	https://github.com/github/gitignore.git (push)
-* master
-
-microsoft-azure-lighthouse-samples
-origin	https://github.com/Azure/Azure-Lighthouse-samples.git (fetch)
-origin	https://github.com/Azure/Azure-Lighthouse-samples.git (push)
-* master
-
-microsoft-azure-quickstart-templates
-origin	https://github.com/Azure/azure-quickstart-templates.git (fetch)
-origin	https://github.com/Azure/azure-quickstart-templates.git (push)
-* master
-
-microsoft-azure-sdk-for-net
-origin	https://github.com/Azure/azure-sdk-for-net.git (fetch)
-origin	https://github.com/Azure/azure-sdk-for-net.git (push)
-* master
-
-microsoft-azure-sdk-for-python
-origin	https://github.com/Azure/azure-sdk-for-python.git (fetch)
-origin	https://github.com/Azure/azure-sdk-for-python.git (push)
-  list
-* master
-
-microsoft-azure-sdk-for-swift
-origin	https://github.com/Azure/azure-libraries-for-swift.git (fetch)
-origin	https://github.com/Azure/azure-libraries-for-swift.git (push)
-* master
-
-microsoft-azure-terraform-blueprints
-origin	https://github.com/aztfmod/blueprints.git (fetch)
-origin	https://github.com/aztfmod/blueprints.git (push)
-* master
-
-microsoft-azure-vdc
-origin	https://github.com/Azure/vdc.git (fetch)
-origin	https://github.com/Azure/vdc.git (push)
-  master
-* vnext
-
-microsoft-graph-samples
-origin	https://github.com/microsoftgraph/30DaysMSGraph-TryItOut.git (fetch)
-origin	https://github.com/microsoftgraph/30DaysMSGraph-TryItOut.git (push)
-* master
-
-powerline
-origin	https://github.com/powerline/powerline.git (fetch)
-origin	https://github.com/powerline/powerline.git (push)
-* develop
-
-spacemacs
-origin	https://github.com/syl20bnr/spacemacs.git (fetch)
-origin	https://github.com/syl20bnr/spacemacs.git (push)
-* master
-
-spacemacs-material-theme
-origin	https://github.com/axler8tor/spacemacs-material-theme.git (fetch)
-origin	https://github.com/axler8tor/spacemacs-material-theme.git (push)
-  develop
-* feature/implementMaterialPalenightTheme
-  master
-
-srcery-terminal
-origin	https://github.com/srcery-colors/srcery-terminal.git (fetch)
-origin	https://github.com/srcery-colors/srcery-terminal.git (push)
-* master
+Algorithm, https://github.com/CosmicMind/Algorithm.git, development
+apple-xcode-xvim, git@github.com:XVimProject/XVim.git, master
+apple-xcode-xvim2, https://github.com/XVimProject/XVim2.git, master
+axler8tor-stdenv.d, ssh://git@github.com/axlm/clinit.git, master
+axler8tor-stdenv.d.1, https://github.com/axler8tor/stdcfg.d.git, develop
+elixir-lib-component, https://github.com/pragdave/component.git, master
+erlang-otp, https://github.com/erlang/otp.git, master
+erlang-tools-rebar3, https://github.com/erlang/rebar3.git, master
+fish-util-fpm, https://github.com/axler8tor/fisher.git, master
+github-gitignore, https://github.com/github/gitignore.git, master
+microsoft-azure-lighthouse-samples, https://github.com/Azure/Azure-Lighthouse-samples.git, master
+microsoft-azure-quickstart-templates, https://github.com/Azure/azure-quickstart-templates.git, master
+microsoft-azure-sdk-for-net, https://github.com/Azure/azure-sdk-for-net.git, master
+microsoft-azure-sdk-for-python, https://github.com/Azure/azure-sdk-for-python.git, master
+microsoft-azure-sdk-for-swift, https://github.com/Azure/azure-libraries-for-swift.git, master
+microsoft-azure-terraform-blueprints, https://github.com/aztfmod/blueprints.git, master
+microsoft-azure-vdc, https://github.com/Azure/vdc.git, vnext
+microsoft-graph-samples, https://github.com/microsoftgraph/30DaysMSGraph-TryItOut.git, master
+powerline, https://github.com/powerline/powerline.git, develop
+spacemacs, https://github.com/syl20bnr/spacemacs.git, master
+spacemacs-material-theme, https://github.com/axler8tor/spacemacs-material-theme.git, master
+srcery-terminal, https://github.com/srcery-colors/srcery-terminal.git, master
 
