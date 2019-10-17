@@ -1,0 +1,3 @@
+[submodule "deps/modernish"]
+	path = deps/modernish
+	url = https://github.com/modernish/modernish.git
