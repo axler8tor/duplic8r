@@ -1,6 +1,10 @@
 # RELEASE NOTES
+## 1.0.5
+**2019-11-23**
++ Baseline for refactoring.
+
 ## 1.0.4+19026
-**2019-01-26
+**2019-01-26**
 + Removed redundant fish functions.
 + Added functions to spawn different shells in terminal.
 + Remove dedundant tmux scripts.
@@ -10,14 +14,14 @@
 + General environment clean up.
 
 ## 1.0.3+17273-00
-**2017-09-30
+**2017-09-30**
 + Removed redundant files.
 + Simplified files.
 + Updated fish functions.
 + Updated configuration files.
 
 ## 1.0.2+17221-00
-**2017-08-09
+**2017-08-09**
 + Removed redundant Azure CLI functions.
 + Added git-update function.
 + Added mkcert function.
