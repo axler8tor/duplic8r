@@ -1,0 +1,26 @@
+#!/bin/zsh
+
+_AX_neovim_config_path=$HOME/.config/nvim
+_AX_neovim_config_file=init.vim
+
+function _AX_mk_neovim_config_dir() {
+
+}
+
+function _AX_install_neovim_config () {
+	# create directories if they don't exist
+	if [[ "${OSTYPE}" = "darwin"* ]]; then
+		_AX_mk_neovim_config_dir "${_AX_neovim_config_path}"
+	elif [[ "${OSTYPE}" = "linux"* ]]; then
+	else
+	fi
+	mkdir -p "$_AX_neovim_config_path"
+	mkdir -p "$_AX_neovim_config_path/plugs"
+	# install/pugrade pip3
+	# install pynvim
+	pip3 install --user pynvim
+	# link configuration file
+	ln -s "$PWD/$_AX_neovim_config_file" "$_AX_neovim_config_path/$_AX_neovim_config_file"
+}
+
+_AX_install_neovim_config

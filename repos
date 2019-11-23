@@ -1,0 +1,23 @@
+Algorithm, https://github.com/CosmicMind/Algorithm.git, development
+apple-xcode-xvim, git@github.com:XVimProject/XVim.git, master
+apple-xcode-xvim2, https://github.com/XVimProject/XVim2.git, master
+axler8tor-stdenv.d, ssh://git@github.com/axlm/clinit.git, master
+axler8tor-stdenv.d.1, https://github.com/axler8tor/stdcfg.d.git, develop
+elixir-lib-component, https://github.com/pragdave/component.git, master
+erlang-otp, https://github.com/erlang/otp.git, master
+erlang-tools-rebar3, https://github.com/erlang/rebar3.git, master
+fish-util-fpm, https://github.com/axler8tor/fisher.git, master
+github-gitignore, https://github.com/github/gitignore.git, master
+microsoft-azure-lighthouse-samples, https://github.com/Azure/Azure-Lighthouse-samples.git, master
+microsoft-azure-quickstart-templates, https://github.com/Azure/azure-quickstart-templates.git, master
+microsoft-azure-sdk-for-net, https://github.com/Azure/azure-sdk-for-net.git, master
+microsoft-azure-sdk-for-python, https://github.com/Azure/azure-sdk-for-python.git, master
+microsoft-azure-sdk-for-swift, https://github.com/Azure/azure-libraries-for-swift.git, master
+microsoft-azure-terraform-blueprints, https://github.com/aztfmod/blueprints.git, master
+microsoft-azure-vdc, https://github.com/Azure/vdc.git, vnext
+microsoft-graph-samples, https://github.com/microsoftgraph/30DaysMSGraph-TryItOut.git, master
+powerline, https://github.com/powerline/powerline.git, develop
+spacemacs, https://github.com/syl20bnr/spacemacs.git, master
+spacemacs-material-theme, https://github.com/axler8tor/spacemacs-material-theme.git, master
+srcery-terminal, https://github.com/srcery-colors/srcery-terminal.git, master
+
