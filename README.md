@@ -1,6 +1,15 @@
 # duplic8r #
-Whenever I set up or use a new \*N\*X\* environment
-Reproducible, identical FreeBSD, Linux, macOS and Windows system and shell environments.
+Quickly provision my favourite _command line_ environment.
+
+## Background ##
+Whenever I set up a new \*N\*X environment, it takes me a some time to get my environment 'just right'. I'm sick of it.
+
+To fix it, I just run:
+```sh
+/bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/axler8r/decor8r/install/master/install.sh)"
+```
+
+It will configure my favourite FreeBSD, Linux and macOS shell environment.
 
 
 ## Table of Contents ##
@@ -17,6 +26,7 @@ Reproducible, identical FreeBSD, Linux, macOS and Windows system and shell envir
 
 
 ## Contribute ##
+
 ### Copyright Waiver ###
 ### Authors ###
 
