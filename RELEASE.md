@@ -1,4 +1,12 @@
 # RELEASE NOTES
+## 1.0.6
+**2020-11-4**
+* Add new license.
+* Add waiver file.
+* Refactor required files.
+* Remove redundant files.
+* Update readme file.
+
 ## 1.0.5
 **2019-11-23**
 + Baseline for refactoring.

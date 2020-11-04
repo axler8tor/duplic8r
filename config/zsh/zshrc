@@ -1,0 +1,102 @@
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=1024
+SAVEHIST=4096
+setopt appendhistory autocd extendedglob
+unsetopt beep
+bindkey -v
+# End of lines configured by zsh-newuser-install
+
+
+# The following lines were added by compinstall
+#zstyle :compinstall filename '/home/axler8r/.zshrc'
+#
+#autoload -Uz compinit
+#compinit
+# End of lines added by compinstall
+
+
+# Oh My ZSH settings
+# export ZSH="/Users/axl/.oh-my-zsh"
+# 
+# plugins=(
+# 	fzf
+# 	thefuck
+# 	vi-mode
+# 	z
+# )
+# 
+# fpath+=$HOME/.zsh_completion.d
+# source $ZSH/oh-my-zsh.sh
+
+
+#aliases
+eval $(thefuck --alias)
+#alias alacritty=' open -n /Applications/Alacritty.app '
+alias cd=' cd '
+alias clear=' clear '
+#alias colorcat='pygmentize -O style=monokai '
+#alias date='gdate '
+#alias git='/usr/local/bin/git '
+#alias grep='grep --color=auto --exclude-dir=".bzr" --exclude-dir=".SVN" --exclude-dir=".git" --exclude=".DS_Store" '
+alias history=' history '
+#alias ipython='PYTHONPATH=/Users/axl/Projects/GitHub/python-app-powerline ipython '
+alias l1=' ls -1 '
+alias la=' ls -a '
+alias ll=' ls -l '
+#alias ls=' gls -h --color=auto --group-directories-first --sort=extension '
+#alias pip='pip3 '
+#alias python='python3 '
+alias upgrade-pip='pip list --outdated --format=freeze | cut -d"=" -f 1 | xargs pip install --upgrade --user '
+
+
+# z
+. ~/.local/bin/z.sh
+
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vi'
+else
+  export EDITOR='nvim'
+fi
+
+
+#  User settings
+setopt EXTENDED_HISTORY
+setopt INC_APPEND_HISTORY
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_FIND_NO_DUPS
+setopt HIST_SAVE_NO_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt HIST_BEEP
+
+
+# powerline
+#export POWERLINE_COMMAND=/Library/Python/3.7/bin/powerline
+#powerline-daemon -q
+#source /Library/Python/3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+
+
+# like fish
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# fzf
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+#export HOMEBREW_GITHUB_API_TOKEN=058b3704bc7e44914e39f7581d7c1ba2e9eadcf3
+
+
+# python
+#export PATH=$PATH:/Users/axl/Library/Python/3.7/bin
+
+
+# opam configuration
+#test -r /Users/axl/.opam/opam-init/init.zsh && . /Users/axl/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+
