@@ -2,6 +2,7 @@
 set autoindent smartindent
 set autoread
 set background=dark
+set colorcolumn=70,80,110
 set cmdheight=2
 set cursorline
 set expandtab
@@ -21,37 +22,37 @@ set printfont=Courier:h7
 set printoptions=number:y
 
 autocmd BufWritePre * :%s/\s\+$//e
-au BufNewFile,BufRead *.code-workspace set filetype=json
-au BufNewFile,BufRead *.dtrace set filetype=dtrace
+autocmd BufNewFile,BufRead *.code-workspace set filetype=json
+autocmd BufNewFile,BufRead *.dtrace set filetype=dtrace
 " }}}
 
 " plugins {{{ {{{
 call plug#begin('~/.config/nvim/plugs')
-Plug 'lifepillar/vim-solarized8'
 Plug '/usr/local/opt/fzf'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'airblade/vim-gitgutter'
+Plug 'alaviss/nim.nvim'
 Plug 'cespare/vim-toml'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'elixir-editors/vim-elixir'
 Plug 'frazrepo/vim-rainbow'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
+Plug 'lifepillar/vim-solarized8'
 Plug 'majutsushi/tagbar'
 Plug 'mengelbrecht/lightline-bufferline'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-surround'
 Plug 'vim-erlang/vim-erlang-runtime'
-Plug 'alaviss/nim.nvim'
 call plug#end()
 " }}}
 
 "" fzf {{{
-map ; :Files<CR>
+map <F12> :Files<CR>
 " }}}
 
 "" deoplete {{{
@@ -94,7 +95,9 @@ if (has("termguicolors"))
 endif
 
 let g:lightline.colorscheme = 'solarized'
+" let g:lightline.colorscheme = 'one'
 colorscheme solarized8
+" colorscheme onehalfdark
 " }}}
 
 " vim: foldmethod=marker
