@@ -28,22 +28,26 @@ autocmd BufNewFile,BufRead *.dtrace set filetype=dtrace
 
 " plugins {{{ {{{
 call plug#begin('~/.config/nvim/plugs')
+"Plug 'autozimu/LanguageClient-neovim', {
+"    \ 'branch': 'next',
+"    \ 'do': 'bash install.sh',
+"    \ }
 Plug '/usr/local/opt/fzf'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'airblade/vim-gitgutter'
 Plug 'alaviss/nim.nvim'
 Plug 'cespare/vim-toml'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'elixir-editors/vim-elixir'
+"Plug 'drewtempelmeyer/palenight.vim'
+"Plug 'elixir-editors/vim-elixir'
 Plug 'frazrepo/vim-rainbow'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'lifepillar/vim-solarized8'
 Plug 'majutsushi/tagbar'
 Plug 'mengelbrecht/lightline-bufferline'
-Plug 'rust-lang/rust.vim'
+"Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
+"Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-surround'
