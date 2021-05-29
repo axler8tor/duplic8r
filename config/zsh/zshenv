@@ -15,3 +15,13 @@
 
 # PATHS
 fpath=(${ASDF_DIR}/completions $fpath)
+
+
+# HELPER APPLICATIONS SETUP
+[[ -f $HOME/.asdf/asdf.sh ]] && source $HOME/.asdf/asdf.sh
+[[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
+[[ -f $HOME/.bin/z.sh ]] && source $HOME/.bin/z.sh
+
+
+# PATHS
+fpath=(${ASDF_DIR}/completions $fpath)
