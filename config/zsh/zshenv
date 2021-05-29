@@ -1,0 +1,27 @@
+# DEFAULTS
+[[ -f $(which nvim) ]] && EDITOR=$(which nvim) || EDITOR=$(which nano)
+[[ -f $(which nvim) ]] && VISUAL=$(which nvim) || VISUAL=$(which nano)
+
+
+# EXPORTS
+[[ -f $(which erl) ]] && export ERL_AFLAGS="-kernel shell_history enabled"
+
+
+# HELPER APPLICATIONS SETUP
+[[ -f $HOME/.asdf/asdf.sh ]] && source $HOME/.asdf/asdf.sh
+[[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
+[[ -f $HOME/.bin/z.sh ]] && source $HOME/.bin/z.sh
+
+
+# PATHS
+fpath=(${ASDF_DIR}/completions $fpath)
+
+
+# HELPER APPLICATIONS SETUP
+[[ -f $HOME/.asdf/asdf.sh ]] && source $HOME/.asdf/asdf.sh
+[[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
+[[ -f $HOME/.bin/z.sh ]] && source $HOME/.bin/z.sh
+
+
+# PATHS
+fpath=(${ASDF_DIR}/completions $fpath)

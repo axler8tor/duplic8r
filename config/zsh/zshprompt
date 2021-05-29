@@ -1,0 +1,4 @@
+if [[ -f $PIP3_HOME/powerline/bindings/zsh/powerline.zsh ]]; then
+    powerline-daemon -q
+    source $PIP3_HOME/powerline/bindings/zsh/powerline.zsh
+fi

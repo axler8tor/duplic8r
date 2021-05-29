@@ -1,0 +1,35 @@
+# fzf
+alias fzf='fzf-tmux --height 40% --reverse --preview "bat --color=always {}" '
+# ls
+alias lsi='ls -Isnap '
+alias ls='lsi --classify --group-directories-first --sort=extension --color=auto '
+alias ll='ls -l '
+alias la='ls -A '
+alias l='ls -1 '
+# cd, push & pop
+alias ..='cd .. '
+alias ...='cd ../../ '
+alias ....='cd ../../../ '
+alias .....='cd ../../../../ '
+alias stack='dirs -v '
+# man
+man() {
+    # dynamically adjust the width of the man display
+    MANWIDTH="$(( COLUMNS > 93 ? 90 : COLUMNS - 3 ))" command man $*
+}
+manw() {
+    # do not adjust the width of the man display, use full terminal
+    # width
+    MANWIDTH="" command man $*
+}
+# nvim
+alias lnvim='nvim -c "set background=light" '
+
+# GLOBAL
+alias -g G='| grep '
+alias -g g='| grep -i '
+alias -g B='| bat '
+alias -g L='| less -N '
+
+# SUFFIX
+alias -s {asc,erl,ex,exs,htm{l},rebar,rs,txt}=gedit

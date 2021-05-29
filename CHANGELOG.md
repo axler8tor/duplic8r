@@ -1,4 +1,10 @@
 # RELEASE NOTES
+## 1.1.0
+**2021-05-30**
++ Simplify shell configuration
++ Remove redundant files
++ Add install scripts
+
 ## 1.0.6
 **2020-11-4**
 * Add new license.
