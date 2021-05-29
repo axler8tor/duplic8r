@@ -1,0 +1,26 @@
+[user]
+    name = AxlER8R
+    email = axl@axler8r.io
+[color]
+	ui = true
+[core]
+    editor = nvim
+    excludesfile = ~/.gitignore
+[merge]
+    tool = meld
+[diff]
+    tool = meld
+[alias]
+    ; actions
+    ffs = flow feature start
+    fff = flow feature finish
+    frs = flow release start
+    frf = flow release finish
+[branch]
+    autosetuprebase = never
+[push]
+    default = simple
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/axl/.asdf/installs/github-cli/1.10.0/bin/gh auth git-credential
