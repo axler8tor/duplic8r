@@ -1,4 +1,9 @@
 # RELEASE NOTES
+## 1.1.1
+**2021-06-01**
++ Clean up attic
++ Create generic install script
+
 ## 1.1.0
 **2021-05-30**
 + Simplify shell configuration
