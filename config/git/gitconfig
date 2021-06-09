@@ -6,10 +6,13 @@
 [core]
     editor = nvim
     excludesfile = ~/.gitignore
+    eol = lf
+    pager = bat
+[mergetool "nvim"]
+    cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
 [merge]
-    tool = meld
-[diff]
-    tool = meld
+    tool = nvim
+    guitool = meld
 [alias]
     ; actions
     ffs = flow feature start
@@ -20,6 +23,4 @@
     autosetuprebase = never
 [push]
     default = simple
-[credential "https://github.com"]
-	helper = 
-	helper = !/home/axl/.asdf/installs/github-cli/1.10.0/bin/gh auth git-credential
+

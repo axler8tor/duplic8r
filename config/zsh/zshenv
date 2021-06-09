@@ -1,6 +1,6 @@
 # DEFAULTS
-[[ -f $(which nvim) ]] && EDITOR=$(which nvim) || EDITOR=$(which nano)
-[[ -f $(which nvim) ]] && VISUAL=$(which nvim) || VISUAL=$(which nano)
+[[ -f $(which nvim) ]] && EDITOR=$(which nvim)
+[[ -f $(which nvim) ]] && VISUAL=$(which nvim)
 
 
 # EXPORTS
@@ -19,6 +19,7 @@ fpath=(${ASDF_DIR}/completions $fpath)
 
 # HELPER APPLICATIONS SETUP
 [[ -f $HOME/.asdf/asdf.sh ]] && source $HOME/.asdf/asdf.sh
+# FIXME: Where does this come from? MacOS?
 [[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
 [[ -f $HOME/.bin/z.sh ]] && source $HOME/.bin/z.sh
 
