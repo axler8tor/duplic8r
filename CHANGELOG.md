@@ -1,4 +1,11 @@
 # RELEASE NOTES
+## 1.1.2
+**2021-0610**
++ Update zshenv file
++ Add powershell configuration
++ Create powershell install script
++ Update gitconfig file
+
 ## 1.1.1
 **2021-06-01**
 + Clean up attic
