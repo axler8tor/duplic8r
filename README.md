@@ -80,7 +80,7 @@ Programming languages I like to investigate:
 * Nim
 
 
-%% GOALS
+## GOAL ##
 * Know where to put what
 * Keep files clean and minimalistic and easy to manage
 
