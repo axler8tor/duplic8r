@@ -9,7 +9,7 @@ backup() {
         if [[ -f ${HOME}/.${_FILE} ]]
         then
             mv ${HOME}/.${_FILE} ${HOME}/.${_FILE}-${_NOW}
-            echo "Moved ${HOME}/.${_FILE} to ${HOME}/.${_FILE}-${_NOW}."
+            echo "Moved ${HOME}/.${_FILE} to ${HOME}/.${_FILE}-${_NOW}"
         fi
     done
 }
@@ -19,7 +19,7 @@ link() {
     foreach _FILE in $(command ls -I"install*")
     do
         ln -s $(pwd)/${_FILE} ${HOME}/.${_FILE}
-        echo "Linked $(pwd)/${_FILE} to ${HOME}/.${_FILE}."
+        echo "Linked $(pwd)/${_FILE} to ${HOME}/.${_FILE}"
     done
 }
 

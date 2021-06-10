@@ -20,7 +20,7 @@ backup() {
 # link files
 link() {
     ln -s $(pwd) ${_CONFIG_HOME}
-    echo "Linked $(pwd) ${_CONFIG_HOME}."
+    echo "Linked $(pwd) ${_CONFIG_HOME}"
 }
 
 main() {
