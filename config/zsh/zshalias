@@ -24,6 +24,17 @@ manw() {
     # width
     MANWIDTH="" command man $*
 }
+mans() {
+    if [[ -n ${TMUX} ]]
+    then
+        tmux split-window -hbf -p 60
+        tmux select-pane -t 2
+        MANWIDTH=$(( ${COLUMNS} - 3 )) command man $*
+        exit
+    else
+        man $*
+    fi
+}
 # nvim
 alias lnvim='nvim -c "set background=light" '
 
