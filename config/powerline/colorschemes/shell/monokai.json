@@ -1,0 +1,13 @@
+{
+	"name": "Solarized dark for shell",
+	"groups": {
+		"mode": { "fg": "monokai:base3", "bg": "monokai:green", "attrs": ["bold"] }
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": { "fg": "monokai:base3", "bg": "monokai:blue", "attrs": ["bold"] }
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"groups": {
+		"stack_depth": { "fg": "monokai:base03", "bg": "monokai:base2", "attrs": ["bold"] }
+	}
+}

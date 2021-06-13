@@ -1,0 +1,121 @@
+{
+	"name": "Solarized dark for vim",
+	"groups": {
+		"information:additional":   { "fg": "monokai:base2", "bg": "monokai:base01", "attrs": [] },
+		"information:unimportant":  { "fg": "monokai:base3", "bg": "monokai:base01", "attrs": [] },
+		"background":               { "fg": "monokai:base3", "bg": "monokai:base02", "attrs": [] },
+		"background:divider":       { "fg": "monokai:base00", "bg": "monokai:base02", "attrs": [] },
+		"mode":                     { "fg": "monokai:base3", "bg": "monokai:green", "attrs": ["bold"] },
+		"visual_range":             { "fg": "monokai:green", "bg": "monokai:base3", "attrs": ["bold"] },
+		"modified_indicator":       { "fg": "monokai:yellow", "bg": "monokai:base01", "attrs": ["bold"] },
+		"paste_indicator":          { "fg": "monokai:base3", "bg": "monokai:orange", "attrs": ["bold"] },
+		"readonly_indicator":       { "fg": "monokai:red", "bg": "monokai:base01", "attrs": [] },
+		"branch_dirty":             { "fg": "monokai:yellow", "bg": "monokai:base01", "attrs": [] },
+		"branch:divider":           { "fg": "monokai:base1", "bg": "monokai:base01", "attrs": [] },
+		"stash:divider":            "branch:divider",
+		"file_name":                { "fg": "monokai:base3", "bg": "monokai:base01", "attrs": ["bold"] },
+		"window_title":             { "fg": "monokai:base3", "bg": "monokai:base01", "attrs": [] },
+		"file_name_no_file":        { "fg": "monokai:base3", "bg": "monokai:base01", "attrs": ["bold"] },
+		"file_format":              { "fg": "monokai:base1", "bg": "monokai:base02", "attrs": [] },
+		"file_vcs_status":          { "fg": "monokai:red", "bg": "monokai:base01", "attrs": [] },
+		"file_vcs_status_M":        { "fg": "monokai:yellow", "bg": "monokai:base01", "attrs": [] },
+		"file_vcs_status_A":        { "fg": "monokai:green", "bg": "monokai:base01", "attrs": [] },
+		"line_percent":             { "fg": "monokai:base3", "bg": "monokai:base00", "attrs": [] },
+		"line_percent_gradient":    { "fg": "green_yellow_orange_red", "bg": "monokai:base00", "attrs": [] },
+		"position":                 { "fg": "monokai:base3", "bg": "monokai:base00", "attrs": [] },
+		"position_gradient":        { "fg": "green_yellow_orange_red", "bg": "monokai:base00", "attrs": [] },
+		"line_current":             { "fg": "monokai:base03", "bg": "monokai:base2", "attrs": ["bold"] },
+		"line_current_symbol":      { "fg": "monokai:base03", "bg": "monokai:base2", "attrs": [] },
+		"virtcol_current_gradient": { "fg": "GREEN_Orange_red", "bg": "monokai:base2", "attrs": [] },
+		"col_current":              { "fg": "monokai:base0", "bg": "monokai:base2", "attrs": [] },
+		"environment":              { "fg": "monokai:base1", "bg": "monokai:base02", "attrs": [] },
+		"attached_clients":         { "fg": "monokai:base1", "bg": "monokai:base02", "attrs": [] },
+		"error":                    { "fg": "monokai:base3", "bg": "monokai:red", "attrs": ["bold"] },
+		"warning":                  { "fg": "monokai:base3", "bg": "monokai:orange", "attrs": ["bold"] },
+		"current_tag":              { "fg": "monokai:base3", "bg": "monokai:base02", "attrs": ["bold"] }
+	},
+	"mode_translations": {
+		"nc": {
+			"colors": {
+				"monokai:base01": "monokai:base02",
+				"monokai:base00": "monokai:base02",
+				"monokai:base0": "monokai:base01",
+				"monokai:base1": "monokai:base00",
+				"monokai:base2": "monokai:base0",
+				"monokai:base3": "monokai:base1"
+			}
+		},
+		"i": {
+			"groups": {
+				"background":             { "fg": "monokai:base3", "bg": "monokai:base01", "attrs": [] },
+				"background:divider":     { "fg": "monokai:base2", "bg": "monokai:base01", "attrs": [] },
+				"mode":                   { "fg": "monokai:base3", "bg": "monokai:blue", "attrs": ["bold"] },
+				"modified_indicator":     { "fg": "monokai:yellow", "bg": "monokai:base2", "attrs": ["bold"] },
+				"paste_indicator":        { "fg": "monokai:base3", "bg": "monokai:orange", "attrs": ["bold"] },
+				"readonly_indicator":     { "fg": "monokai:red", "bg": "monokai:base2", "attrs": [] },
+				"branch":                 { "fg": "monokai:base01", "bg": "monokai:base2", "attrs": [] },
+				"branch:divider":         { "fg": "monokai:base00", "bg": "monokai:base2", "attrs": [] },
+				"file_directory":         { "fg": "monokai:base01", "bg": "monokai:base2", "attrs": [] },
+				"file_name":              { "fg": "monokai:base02", "bg": "monokai:base2", "attrs": ["bold"] },
+				"file_size":              { "fg": "monokai:base02", "bg": "monokai:base2", "attrs": [] },
+				"file_name_no_file":      { "fg": "monokai:base02", "bg": "monokai:base2", "attrs": ["bold"] },
+				"file_name_empty":        { "fg": "monokai:base02", "bg": "monokai:base2", "attrs": [] },
+				"file_format":            { "fg": "monokai:base2", "bg": "monokai:base01", "attrs": [] },
+				"file_vcs_status":        { "fg": "monokai:red", "bg": "monokai:base2", "attrs": [] },
+				"file_vcs_status_M":      { "fg": "monokai:yellow", "bg": "monokai:base2", "attrs": [] },
+				"file_vcs_status_A":      { "fg": "monokai:green", "bg": "monokai:base2", "attrs": [] },
+				"line_percent":           { "fg": "monokai:base3", "bg": "monokai:base1", "attrs": [] },
+				"line_percent_gradient":  { "fg": "monokai:base3", "bg": "monokai:base1", "attrs": [] },
+				"position":               { "fg": "monokai:base3", "bg": "monokai:base1", "attrs": [] },
+				"position_gradient":      { "fg": "monokai:base3", "bg": "monokai:base1", "attrs": [] },
+				"line_current":           { "fg": "monokai:base03", "bg": "monokai:base3", "attrs": ["bold"] },
+				"line_current_symbol":    { "fg": "monokai:base03", "bg": "monokai:base3", "attrs": [] },
+				"col_current":            { "fg": "monokai:base0", "bg": "monokai:base3", "attrs": [] }
+			}
+		},
+		"ic": {
+			"groups": {
+				"background":             { "fg": "monokai:base3", "bg": "monokai:base01", "attrs": [] },
+				"background:divider":     { "fg": "monokai:base2", "bg": "monokai:base01", "attrs": [] },
+				"mode":                   { "fg": "monokai:base3", "bg": "monokai:blue", "attrs": ["bold"] }
+			}
+		},
+		"ix": {
+			"groups": {
+				"background":             { "fg": "monokai:base3", "bg": "monokai:base01", "attrs": [] },
+				"background:divider":     { "fg": "monokai:base2", "bg": "monokai:base01", "attrs": [] },
+				"mode":                   { "fg": "monokai:base3", "bg": "monokai:blue", "attrs": ["bold"] }
+			}
+		},
+		"v": {
+			"groups": {
+				"mode": { "fg": "monokai:base3", "bg": "monokai:orange", "attrs": ["bold"] }
+			}
+		},
+		"V": {
+			"groups": {
+				"mode": { "fg": "monokai:base3", "bg": "monokai:orange", "attrs": ["bold"] }
+			}
+		},
+		"^V": {
+			"groups": {
+				"mode": { "fg": "monokai:base3", "bg": "monokai:orange", "attrs": ["bold"] }
+			}
+		},
+		"R": {
+			"groups": {
+				"mode": { "fg": "monokai:base3", "bg": "monokai:red", "attrs": ["bold"] }
+			}
+		},
+		"Rc": {
+			"groups": {
+				"mode": { "fg": "monokai:base3", "bg": "monokai:red", "attrs": ["bold"] }
+			}
+		},
+		"Rx": {
+			"groups": {
+				"mode": { "fg": "monokai:base3", "bg": "monokai:red", "attrs": ["bold"] }
+			}
+		}
+	}
+}
