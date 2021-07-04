@@ -12,10 +12,8 @@ To fix it, I just run:
   $ git clone https://github.com/axler8r/duplic8r.git ~/.duplic8r
   $ ~/.duplic8r/install
 ----
+to configure my favourite Linux or macOS shell and gnome environment.
 
-It will configure my favourite FreeBSD, Linux and macOS shell environment.
-
-//// Fix links ////
 
 == Table of Contents ==
 * <<Install, Install>>
@@ -25,29 +23,23 @@ It will configure my favourite FreeBSD, Linux and macOS shell environment.
 * <<Notes, Notes>>
 
 
-.Install
 [#Install]
 == Install ==
 
 
-.Use
 [#Use]
 == Use ==
 
 
-.Contribute
 [#Contribute]
 == Contribute ==
 
-.Contribute Copyright Waiver
 === Copyright Waiver ===
 
 
-.Contribute Authors
 === Authors ===
 
 
-.License
 [#License]
 == License ==
 This is free and unencumbered public domain software. For more
@@ -55,8 +47,7 @@ information, see http://unlicense.org/ or the accompanying UNLICENSE
 file.
 
 
-.Note
-= NOTE:
+== Blah ==
 I use zsh on my own workstations and servers.  By far the most
 common shell I encounter in the wild is Bash.  In light of that,
 the rules I make here for use of zsh applies to my usage profile.
@@ -65,7 +56,7 @@ I almost exclusively use zsh to perform tasks at the command line.
 ZSH to makes my life easier.  I prefer to work from the shell and
 not to grab the mouse to accomplish every task.
 
-The most common activities I perform is:
+.Things I do a lot
 * Use git
 * Use docker
 * Start and manage tmux sessions
@@ -85,28 +76,25 @@ The most common activities I perform is:
 * Manage virtual environments
 * Occasionally experiment with interesting tech or whatever is new and shiny
 
-Stuff I don't use zsh for is:
+.Things I don't do
 * Extensive scripting
 
-Programming languages I like to use:
+.My programming languages
 * Elixir/Erlang
 * Python
-* C=
+* C#
 * Rust
 * Kotlin/Scala
 
-Programming languages I like to investigate:
+.Programming languages I am interested in
 * Reason
 * Nim
 
-
-.Note.Goal
-== GOAL ==
+.Goals
 * Know where to put what
 * Keep files clean and minimalistic and easy to manage
 
 
-.Note.StartupOrder
 == STARTUP ORDER ==
 When zsh starts it reads global configs that I don't mess with. I am
 interested the following ones:
@@ -130,17 +118,17 @@ interested the following ones:
 |===
 
 
-.Note.Guidance
 == GUIDANCE ==
 Check out THIS link:
   https://unix.stackexchange.com/questions/71253/what-should-shouldnt-go-in-zshenv-zshrc-zlogin-zprofile-zlogout
 
 
-.Note.WhereToPutWhat
 == WHERE TO PUT WHAT ==
 ONLY use files. ~/.zshenv and ~/.zshrc, unless instructions for
 configuration purposes indicate that one of the other zsh config
 files should be used.
+
+.Configuraiton Locations
 * Environment variables go into ~/.zshenv
 * PATH manipulation of any kind goes into ~/.zshenv
 * Stuff related to shell use like PAGER and EDITOR goes into ~/.zshrc
