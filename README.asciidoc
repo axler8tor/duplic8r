@@ -135,7 +135,8 @@ purposes indicate that one of the other zsh config files should be used.
 == ORDER OF STUFF IN ~/.zshrc ==
 * completion system
 * shell options
-* shit that is NOT a function, alias or prompt but has to do only with shell use like LS_COLORS or MANWIDTH
+* stuff that is NOT a function, alias or prompt but has to do only with
+  shell use like LS_COLORS or MANWIDTH
 * funcitons   — split out into ~/.zshfunctions and source
 * aliases     — split out into ~/.zshaliases and source
 * prompt
