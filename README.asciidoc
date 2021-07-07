@@ -42,19 +42,18 @@ to configure my favourite Linux or macOS shell and gnome environment.
 
 [#License]
 == License ==
-This is free and unencumbered public domain software. For more
-information, see http://unlicense.org/ or the accompanying UNLICENSE
-file.
+This is free and unencumbered public domain software. For more information, see
+http://unlicense.org/ or the accompanying UNLICENSE file.
 
 
 == Blah ==
-I use zsh on my own workstations and servers.  By far the most
-common shell I encounter in the wild is Bash.  In light of that,
-the rules I make here for use of zsh applies to my usage profile.
+I use zsh on my own workstations and servers.  By far the most common shell I
+encounter in the wild is Bash.  In light of that, the rules I make here for use
+of zsh applies to my usage profile.
 
-I almost exclusively use zsh to perform tasks at the command line.
-ZSH to makes my life easier.  I prefer to work from the shell and
-not to grab the mouse to accomplish every task.
+I almost exclusively use zsh to perform tasks at the command line.  ZSH to makes
+my life easier.  I prefer to work from the shell and not to grab the mouse to
+accomplish every task.
 
 .Things I do a lot
 * Use git
@@ -96,25 +95,24 @@ not to grab the mouse to accomplish every task.
 
 
 == STARTUP ORDER ==
-When zsh starts it reads global configs that I don't mess with. I am
-interested the following ones:
-.StartupFilesTable
+When zsh starts it reads global configs that I don't mess with. I am interested
+the following ones:
 [cols="1,1"]
 |===
-| File       | Startup
-|~/.zshenv   | allways. It is read every time I USE a shell like<br>
-               running a script.
-|~/.zprofile | if it is a login shell — i.e. I have logged in via<br>
-               ssh or GDM and opened a shell (terminal). Running<br>
-               a shell, not logged in, would be a script kicked<br>
-               off by cron at 03:00 while I am logged off and<br>
-               fast asleep in bed. In that case, ~/.zprofile will<br>
-               NOT be read. It is read every time I open a shell.
-|~/.zshrc    | if it is an interactive shell — i.e. I can type<br>
-               commands in a terminal and see the results. It is<br>
-               read every time I open a shell.
-|~/.zshlogin | if it is a login shell. It is read every time I<br>
-               open a shell.
+| *File*       | *Startup*
+|_~/.zshenv_   | allways. It is read every time I USE a shell like
+                 running a script.
+|_~/.zprofile_ | if it is a login shell — i.e. I have logged in via
+                 ssh or GDM and opened a shell (terminal). Running
+                 a shell, not logged in, would be a script kicked
+                 off by cron at 03:00 while I am logged off and
+                 fast asleep in bed. In that case, ~/.zprofile will
+                 NOT be read. It is read every time I open a shell.
+|_~/.zshrc_    | if it is an interactive shell — i.e. I can type
+                 commands in a terminal and see the results. It is
+                 read every time I open a shell.
+|_~/.zshlogin_ | if it is a login shell. It is read every time I
+                 open a shell.
 |===
 
 
@@ -124,9 +122,8 @@ Check out THIS link:
 
 
 == WHERE TO PUT WHAT ==
-ONLY use files. ~/.zshenv and ~/.zshrc, unless instructions for
-configuration purposes indicate that one of the other zsh config
-files should be used.
+ONLY use files. ~/.zshenv and ~/.zshrc, unless instructions for configuration
+purposes indicate that one of the other zsh config files should be used.
 
 .Configuraiton Locations
 * Environment variables go into ~/.zshenv
