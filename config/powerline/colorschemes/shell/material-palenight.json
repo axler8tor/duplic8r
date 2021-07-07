@@ -1,0 +1,13 @@
+{
+	"name": "Material Pale Night for shell",
+	"groups": {
+		"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:green", "attrs": ["bold"] }
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:blue", "attrs": ["bold"] }
+			}
+		}
+	}
+}

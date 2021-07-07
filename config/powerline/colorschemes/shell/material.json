@@ -1,0 +1,13 @@
+{
+	"name": "Material for shell",
+	"groups": {
+		"mode": { "fg": "material:base3", "bg": "material:green", "attrs": ["bold"] }
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": { "fg": "material:base3", "bg": "material:blue", "attrs": ["bold"] }
+			}
+		}
+	}
+}

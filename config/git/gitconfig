@@ -1,6 +1,7 @@
 [user]
     name = AxlER8R
     email = axl@axler8r.io
+    signingkey = 1B5C4A4F10A770E3
 [color]
 	ui = true
 [core]
@@ -24,3 +25,5 @@
 [push]
     default = simple
 
+[gc]
+	autoDetach = false

@@ -1,0 +1,121 @@
+{
+	"name": "Material for vim",
+	"groups": {
+		"information:additional":   { "fg": "material:base2", "bg": "material:base01", "attrs": [] },
+		"information:unimportant":  { "fg": "material:base3", "bg": "material:base01", "attrs": [] },
+		"background":               { "fg": "material:base3", "bg": "material:base02", "attrs": [] },
+		"background:divider":       { "fg": "material:base00", "bg": "material:base02", "attrs": [] },
+		"mode":                     { "fg": "material:base3", "bg": "material:green", "attrs": ["bold"] },
+		"visual_range":             { "fg": "material:green", "bg": "material:base3", "attrs": ["bold"] },
+		"modified_indicator":       { "fg": "material:yellow", "bg": "material:base01", "attrs": ["bold"] },
+		"paste_indicator":          { "fg": "material:base3", "bg": "material:orange", "attrs": ["bold"] },
+		"readonly_indicator":       { "fg": "material:red", "bg": "material:base01", "attrs": [] },
+		"branch_dirty":             { "fg": "material:yellow", "bg": "material:base01", "attrs": [] },
+		"branch:divider":           { "fg": "material:base1", "bg": "material:base01", "attrs": [] },
+		"stash:divider":            "branch:divider",
+		"file_name":                { "fg": "material:base3", "bg": "material:base01", "attrs": ["bold"] },
+		"window_title":             { "fg": "material:base3", "bg": "material:base01", "attrs": [] },
+		"file_name_no_file":        { "fg": "material:base3", "bg": "material:base01", "attrs": ["bold"] },
+		"file_format":              { "fg": "material:base1", "bg": "material:base02", "attrs": [] },
+		"file_vcs_status":          { "fg": "material:red", "bg": "material:base01", "attrs": [] },
+		"file_vcs_status_M":        { "fg": "material:yellow", "bg": "material:base01", "attrs": [] },
+		"file_vcs_status_A":        { "fg": "material:green", "bg": "material:base01", "attrs": [] },
+		"line_percent":             { "fg": "material:base3", "bg": "material:base00", "attrs": [] },
+		"line_percent_gradient":    { "fg": "green_yellow_orange_red", "bg": "material:base00", "attrs": [] },
+		"position":                 { "fg": "material:base3", "bg": "material:base00", "attrs": [] },
+		"position_gradient":        { "fg": "green_yellow_orange_red", "bg": "material:base00", "attrs": [] },
+		"line_current":             { "fg": "material:base03", "bg": "material:base2", "attrs": ["bold"] },
+		"line_current_symbol":      { "fg": "material:base03", "bg": "material:base2", "attrs": [] },
+		"virtcol_current_gradient": { "fg": "GREEN_Orange_red", "bg": "material:base2", "attrs": [] },
+		"col_current":              { "fg": "material:base0", "bg": "material:base2", "attrs": [] },
+		"environment":              { "fg": "material:base1", "bg": "material:base02", "attrs": [] },
+		"attached_clients":         { "fg": "material:base1", "bg": "material:base02", "attrs": [] },
+		"error":                    { "fg": "material:base3", "bg": "material:red", "attrs": ["bold"] },
+		"warning":                  { "fg": "material:base3", "bg": "material:orange", "attrs": ["bold"] },
+		"current_tag":              { "fg": "material:base3", "bg": "material:base02", "attrs": ["bold"] }
+	},
+	"mode_translations": {
+		"nc": {
+			"colors": {
+				"material:base01": "material:base02",
+				"material:base00": "material:base02",
+				"material:base0": "material:base01",
+				"material:base1": "material:base00",
+				"material:base2": "material:base0",
+				"material:base3": "material:base1"
+			}
+		},
+		"i": {
+			"groups": {
+				"background":             { "fg": "material:base3", "bg": "material:base01", "attrs": [] },
+				"background:divider":     { "fg": "material:base2", "bg": "material:base01", "attrs": [] },
+				"mode":                   { "fg": "material:base3", "bg": "material:blue", "attrs": ["bold"] },
+				"modified_indicator":     { "fg": "material:yellow", "bg": "material:base2", "attrs": ["bold"] },
+				"paste_indicator":        { "fg": "material:base3", "bg": "material:orange", "attrs": ["bold"] },
+				"readonly_indicator":     { "fg": "material:red", "bg": "material:base2", "attrs": [] },
+				"branch":                 { "fg": "material:base01", "bg": "material:base2", "attrs": [] },
+				"branch:divider":         { "fg": "material:base00", "bg": "material:base2", "attrs": [] },
+				"file_directory":         { "fg": "material:base01", "bg": "material:base2", "attrs": [] },
+				"file_name":              { "fg": "material:base02", "bg": "material:base2", "attrs": ["bold"] },
+				"file_size":              { "fg": "material:base02", "bg": "material:base2", "attrs": [] },
+				"file_name_no_file":      { "fg": "material:base02", "bg": "material:base2", "attrs": ["bold"] },
+				"file_name_empty":        { "fg": "material:base02", "bg": "material:base2", "attrs": [] },
+				"file_format":            { "fg": "material:base2", "bg": "material:base01", "attrs": [] },
+				"file_vcs_status":        { "fg": "material:red", "bg": "material:base2", "attrs": [] },
+				"file_vcs_status_M":      { "fg": "material:yellow", "bg": "material:base2", "attrs": [] },
+				"file_vcs_status_A":      { "fg": "material:green", "bg": "material:base2", "attrs": [] },
+				"line_percent":           { "fg": "material:base3", "bg": "material:base1", "attrs": [] },
+				"line_percent_gradient":  { "fg": "material:base3", "bg": "material:base1", "attrs": [] },
+				"position":               { "fg": "material:base3", "bg": "material:base1", "attrs": [] },
+				"position_gradient":      { "fg": "material:base3", "bg": "material:base1", "attrs": [] },
+				"line_current":           { "fg": "material:base03", "bg": "material:base3", "attrs": ["bold"] },
+				"line_current_symbol":    { "fg": "material:base03", "bg": "material:base3", "attrs": [] },
+				"col_current":            { "fg": "material:base0", "bg": "material:base3", "attrs": [] }
+			}
+		},
+		"ic": {
+			"groups": {
+				"background":             { "fg": "material:base3", "bg": "material:base01", "attrs": [] },
+				"background:divider":     { "fg": "material:base2", "bg": "material:base01", "attrs": [] },
+				"mode":                   { "fg": "material:base3", "bg": "material:blue", "attrs": ["bold"] }
+			}
+		},
+		"ix": {
+			"groups": {
+				"background":             { "fg": "material:base3", "bg": "material:base01", "attrs": [] },
+				"background:divider":     { "fg": "material:base2", "bg": "material:base01", "attrs": [] },
+				"mode":                   { "fg": "material:base3", "bg": "material:blue", "attrs": ["bold"] }
+			}
+		},
+		"v": {
+			"groups": {
+				"mode": { "fg": "material:base3", "bg": "material:orange", "attrs": ["bold"] }
+			}
+		},
+		"V": {
+			"groups": {
+				"mode": { "fg": "material:base3", "bg": "material:orange", "attrs": ["bold"] }
+			}
+		},
+		"^V": {
+			"groups": {
+				"mode": { "fg": "material:base3", "bg": "material:orange", "attrs": ["bold"] }
+			}
+		},
+		"R": {
+			"groups": {
+				"mode": { "fg": "material:base3", "bg": "material:red", "attrs": ["bold"] }
+			}
+		},
+		"Rc": {
+			"groups": {
+				"mode": { "fg": "material:base3", "bg": "material:red", "attrs": ["bold"] }
+			}
+		},
+		"Rx": {
+			"groups": {
+				"mode": { "fg": "material:base3", "bg": "material:red", "attrs": ["bold"] }
+			}
+		}
+	}
+}

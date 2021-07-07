@@ -39,3 +39,8 @@ then
     source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 fi
 
+if [[ -f $HOME/.zsh-hsmw/history-search-multi-word.plugin.zsh ]]
+then
+    source $HOME/.zsh-hsmw/history-search-multi-word.plugin.zsh
+fi
+

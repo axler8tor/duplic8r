@@ -1,0 +1,5 @@
+{
+	"groups": {
+		"stack_depth": { "fg": "material:base03", "bg": "material:base2", "attrs": ["bold"] }
+	}
+}

@@ -1,0 +1,121 @@
+{
+	"name": "Material Darker for vim",
+	"groups": {
+		"information:additional":   { "fg": "material-darker:base2", "bg": "material-darker:base01", "attrs": [] },
+		"information:unimportant":  { "fg": "material-darker:base3", "bg": "material-darker:base01", "attrs": [] },
+		"background":               { "fg": "material-darker:base3", "bg": "material-darker:base02", "attrs": [] },
+		"background:divider":       { "fg": "material-darker:base00", "bg": "material-darker:base02", "attrs": [] },
+		"mode":                     { "fg": "material-darker:base3", "bg": "material-darker:green", "attrs": ["bold"] },
+		"visual_range":             { "fg": "material-darker:green", "bg": "material-darker:base3", "attrs": ["bold"] },
+		"modified_indicator":       { "fg": "material-darker:yellow", "bg": "material-darker:base01", "attrs": ["bold"] },
+		"paste_indicator":          { "fg": "material-darker:base3", "bg": "material-darker:orange", "attrs": ["bold"] },
+		"readonly_indicator":       { "fg": "material-darker:red", "bg": "material-darker:base01", "attrs": [] },
+		"branch_dirty":             { "fg": "material-darker:yellow", "bg": "material-darker:base01", "attrs": [] },
+		"branch:divider":           { "fg": "material-darker:base1", "bg": "material-darker:base01", "attrs": [] },
+		"stash:divider":            "branch:divider",
+		"file_name":                { "fg": "material-darker:base3", "bg": "material-darker:base01", "attrs": ["bold"] },
+		"window_title":             { "fg": "material-darker:base3", "bg": "material-darker:base01", "attrs": [] },
+		"file_name_no_file":        { "fg": "material-darker:base3", "bg": "material-darker:base01", "attrs": ["bold"] },
+		"file_format":              { "fg": "material-darker:base1", "bg": "material-darker:base02", "attrs": [] },
+		"file_vcs_status":          { "fg": "material-darker:red", "bg": "material-darker:base01", "attrs": [] },
+		"file_vcs_status_M":        { "fg": "material-darker:yellow", "bg": "material-darker:base01", "attrs": [] },
+		"file_vcs_status_A":        { "fg": "material-darker:green", "bg": "material-darker:base01", "attrs": [] },
+		"line_percent":             { "fg": "material-darker:base3", "bg": "material-darker:base00", "attrs": [] },
+		"line_percent_gradient":    { "fg": "green_yellow_orange_red", "bg": "material-darker:base00", "attrs": [] },
+		"position":                 { "fg": "material-darker:base3", "bg": "material-darker:base00", "attrs": [] },
+		"position_gradient":        { "fg": "green_yellow_orange_red", "bg": "material-darker:base00", "attrs": [] },
+		"line_current":             { "fg": "material-darker:base03", "bg": "material-darker:base2", "attrs": ["bold"] },
+		"line_current_symbol":      { "fg": "material-darker:base03", "bg": "material-darker:base2", "attrs": [] },
+		"virtcol_current_gradient": { "fg": "GREEN_Orange_red", "bg": "material-darker:base2", "attrs": [] },
+		"col_current":              { "fg": "material-darker:base0", "bg": "material-darker:base2", "attrs": [] },
+		"environment":              { "fg": "material-darker:base1", "bg": "material-darker:base02", "attrs": [] },
+		"attached_clients":         { "fg": "material-darker:base1", "bg": "material-darker:base02", "attrs": [] },
+		"error":                    { "fg": "material-darker:base3", "bg": "material-darker:red", "attrs": ["bold"] },
+		"warning":                  { "fg": "material-darker:base3", "bg": "material-darker:orange", "attrs": ["bold"] },
+		"current_tag":              { "fg": "material-darker:base3", "bg": "material-darker:base02", "attrs": ["bold"] }
+	},
+	"mode_translations": {
+		"nc": {
+			"colors": {
+				"material-darker:base01": "material-darker:base02",
+				"material-darker:base00": "material-darker:base02",
+				"material-darker:base0": "material-darker:base01",
+				"material-darker:base1": "material-darker:base00",
+				"material-darker:base2": "material-darker:base0",
+				"material-darker:base3": "material-darker:base1"
+			}
+		},
+		"i": {
+			"groups": {
+				"background":             { "fg": "material-darker:base3", "bg": "material-darker:base01", "attrs": [] },
+				"background:divider":     { "fg": "material-darker:base2", "bg": "material-darker:base01", "attrs": [] },
+				"mode":                   { "fg": "material-darker:base3", "bg": "material-darker:blue", "attrs": ["bold"] },
+				"modified_indicator":     { "fg": "material-darker:yellow", "bg": "material-darker:base2", "attrs": ["bold"] },
+				"paste_indicator":        { "fg": "material-darker:base3", "bg": "material-darker:orange", "attrs": ["bold"] },
+				"readonly_indicator":     { "fg": "material-darker:red", "bg": "material-darker:base2", "attrs": [] },
+				"branch":                 { "fg": "material-darker:base01", "bg": "material-darker:base2", "attrs": [] },
+				"branch:divider":         { "fg": "material-darker:base00", "bg": "material-darker:base2", "attrs": [] },
+				"file_directory":         { "fg": "material-darker:base01", "bg": "material-darker:base2", "attrs": [] },
+				"file_name":              { "fg": "material-darker:base02", "bg": "material-darker:base2", "attrs": ["bold"] },
+				"file_size":              { "fg": "material-darker:base02", "bg": "material-darker:base2", "attrs": [] },
+				"file_name_no_file":      { "fg": "material-darker:base02", "bg": "material-darker:base2", "attrs": ["bold"] },
+				"file_name_empty":        { "fg": "material-darker:base02", "bg": "material-darker:base2", "attrs": [] },
+				"file_format":            { "fg": "material-darker:base2", "bg": "material-darker:base01", "attrs": [] },
+				"file_vcs_status":        { "fg": "material-darker:red", "bg": "material-darker:base2", "attrs": [] },
+				"file_vcs_status_M":      { "fg": "material-darker:yellow", "bg": "material-darker:base2", "attrs": [] },
+				"file_vcs_status_A":      { "fg": "material-darker:green", "bg": "material-darker:base2", "attrs": [] },
+				"line_percent":           { "fg": "material-darker:base3", "bg": "material-darker:base1", "attrs": [] },
+				"line_percent_gradient":  { "fg": "material-darker:base3", "bg": "material-darker:base1", "attrs": [] },
+				"position":               { "fg": "material-darker:base3", "bg": "material-darker:base1", "attrs": [] },
+				"position_gradient":      { "fg": "material-darker:base3", "bg": "material-darker:base1", "attrs": [] },
+				"line_current":           { "fg": "material-darker:base03", "bg": "material-darker:base3", "attrs": ["bold"] },
+				"line_current_symbol":    { "fg": "material-darker:base03", "bg": "material-darker:base3", "attrs": [] },
+				"col_current":            { "fg": "material-darker:base0", "bg": "material-darker:base3", "attrs": [] }
+			}
+		},
+		"ic": {
+			"groups": {
+				"background":             { "fg": "material-darker:base3", "bg": "material-darker:base01", "attrs": [] },
+				"background:divider":     { "fg": "material-darker:base2", "bg": "material-darker:base01", "attrs": [] },
+				"mode":                   { "fg": "material-darker:base3", "bg": "material-darker:blue", "attrs": ["bold"] }
+			}
+		},
+		"ix": {
+			"groups": {
+				"background":             { "fg": "material-darker:base3", "bg": "material-darker:base01", "attrs": [] },
+				"background:divider":     { "fg": "material-darker:base2", "bg": "material-darker:base01", "attrs": [] },
+				"mode":                   { "fg": "material-darker:base3", "bg": "material-darker:blue", "attrs": ["bold"] }
+			}
+		},
+		"v": {
+			"groups": {
+				"mode": { "fg": "material-darker:base3", "bg": "material-darker:orange", "attrs": ["bold"] }
+			}
+		},
+		"V": {
+			"groups": {
+				"mode": { "fg": "material-darker:base3", "bg": "material-darker:orange", "attrs": ["bold"] }
+			}
+		},
+		"^V": {
+			"groups": {
+				"mode": { "fg": "material-darker:base3", "bg": "material-darker:orange", "attrs": ["bold"] }
+			}
+		},
+		"R": {
+			"groups": {
+				"mode": { "fg": "material-darker:base3", "bg": "material-darker:red", "attrs": ["bold"] }
+			}
+		},
+		"Rc": {
+			"groups": {
+				"mode": { "fg": "material-darker:base3", "bg": "material-darker:red", "attrs": ["bold"] }
+			}
+		},
+		"Rx": {
+			"groups": {
+				"mode": { "fg": "material-darker:base3", "bg": "material-darker:red", "attrs": ["bold"] }
+			}
+		}
+	}
+}

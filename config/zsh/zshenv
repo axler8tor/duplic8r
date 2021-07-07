@@ -5,6 +5,7 @@
 
 # EXPORTS
 [[ -f $(which erl) ]] && export ERL_AFLAGS="-kernel shell_history enabled"
+export GPG_TTY=$(tty)
 
 
 # HELPER APPLICATIONS SETUP
@@ -26,3 +27,4 @@ fpath=(${ASDF_DIR}/completions $fpath)
 
 # PATHS
 fpath=(${ASDF_DIR}/completions $fpath)
+

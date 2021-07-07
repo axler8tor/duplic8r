@@ -40,7 +40,7 @@
         "gitstatus_branch":           { "fg": "solarized:base02",        "bg": "solarized:base2",   "attrs": ["bold"] },
         "gitstatus_branch_clean":     { "fg": "solarized:green",         "bg": "solarized:base2",   "attrs": ["bold"] },
         "gitstatus_branch_dirty":     { "fg": "solarized:orange",        "bg": "solarized:base2",   "attrs": ["bold"] },
-        "gitstatus_branch_detached":  { "fg": "solarized:ret",           "bg": "solarized:base2",   "attrs": ["bold"] },
+        "gitstatus_branch_detached":  { "fg": "solarized:red",           "bg": "solarized:base2",   "attrs": ["bold"] },
         "gitstatus_tag":              { "fg": "solarized:cyan",          "bg": "solarized:base2",   "attrs": [] },
         "gitstatus_behind":           { "fg": "solarized:base02",        "bg": "solarized:base2",   "attrs": [] },
         "gitstatus_ahead":            { "fg": "solarized:base02",        "bg": "solarized:base2",   "attrs": [] },

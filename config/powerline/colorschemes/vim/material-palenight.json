@@ -1,0 +1,121 @@
+{
+	"name": "Material Pale Night for vim",
+	"groups": {
+		"information:additional":   { "fg": "material-palenight:base2", "bg": "material-palenight:base01", "attrs": [] },
+		"information:unimportant":  { "fg": "material-palenight:base3", "bg": "material-palenight:base01", "attrs": [] },
+		"background":               { "fg": "material-palenight:base3", "bg": "material-palenight:base02", "attrs": [] },
+		"background:divider":       { "fg": "material-palenight:base00", "bg": "material-palenight:base02", "attrs": [] },
+		"mode":                     { "fg": "material-palenight:base3", "bg": "material-palenight:green", "attrs": ["bold"] },
+		"visual_range":             { "fg": "material-palenight:green", "bg": "material-palenight:base3", "attrs": ["bold"] },
+		"modified_indicator":       { "fg": "material-palenight:yellow", "bg": "material-palenight:base01", "attrs": ["bold"] },
+		"paste_indicator":          { "fg": "material-palenight:base3", "bg": "material-palenight:orange", "attrs": ["bold"] },
+		"readonly_indicator":       { "fg": "material-palenight:red", "bg": "material-palenight:base01", "attrs": [] },
+		"branch_dirty":             { "fg": "material-palenight:yellow", "bg": "material-palenight:base01", "attrs": [] },
+		"branch:divider":           { "fg": "material-palenight:base1", "bg": "material-palenight:base01", "attrs": [] },
+		"stash:divider":            "branch:divider",
+		"file_name":                { "fg": "material-palenight:base3", "bg": "material-palenight:base01", "attrs": ["bold"] },
+		"window_title":             { "fg": "material-palenight:base3", "bg": "material-palenight:base01", "attrs": [] },
+		"file_name_no_file":        { "fg": "material-palenight:base3", "bg": "material-palenight:base01", "attrs": ["bold"] },
+		"file_format":              { "fg": "material-palenight:base1", "bg": "material-palenight:base02", "attrs": [] },
+		"file_vcs_status":          { "fg": "material-palenight:red", "bg": "material-palenight:base01", "attrs": [] },
+		"file_vcs_status_M":        { "fg": "material-palenight:yellow", "bg": "material-palenight:base01", "attrs": [] },
+		"file_vcs_status_A":        { "fg": "material-palenight:green", "bg": "material-palenight:base01", "attrs": [] },
+		"line_percent":             { "fg": "material-palenight:base3", "bg": "material-palenight:base00", "attrs": [] },
+		"line_percent_gradient":    { "fg": "green_yellow_orange_red", "bg": "material-palenight:base00", "attrs": [] },
+		"position":                 { "fg": "material-palenight:base3", "bg": "material-palenight:base00", "attrs": [] },
+		"position_gradient":        { "fg": "green_yellow_orange_red", "bg": "material-palenight:base00", "attrs": [] },
+		"line_current":             { "fg": "material-palenight:base03", "bg": "material-palenight:base2", "attrs": ["bold"] },
+		"line_current_symbol":      { "fg": "material-palenight:base03", "bg": "material-palenight:base2", "attrs": [] },
+		"virtcol_current_gradient": { "fg": "GREEN_Orange_red", "bg": "material-palenight:base2", "attrs": [] },
+		"col_current":              { "fg": "material-palenight:base0", "bg": "material-palenight:base2", "attrs": [] },
+		"environment":              { "fg": "material-palenight:base1", "bg": "material-palenight:base02", "attrs": [] },
+		"attached_clients":         { "fg": "material-palenight:base1", "bg": "material-palenight:base02", "attrs": [] },
+		"error":                    { "fg": "material-palenight:base3", "bg": "material-palenight:red", "attrs": ["bold"] },
+		"warning":                  { "fg": "material-palenight:base3", "bg": "material-palenight:orange", "attrs": ["bold"] },
+		"current_tag":              { "fg": "material-palenight:base3", "bg": "material-palenight:base02", "attrs": ["bold"] }
+	},
+	"mode_translations": {
+		"nc": {
+			"colors": {
+				"material-palenight:base01": "material-palenight:base02",
+				"material-palenight:base00": "material-palenight:base02",
+				"material-palenight:base0": "material-palenight:base01",
+				"material-palenight:base1": "material-palenight:base00",
+				"material-palenight:base2": "material-palenight:base0",
+				"material-palenight:base3": "material-palenight:base1"
+			}
+		},
+		"i": {
+			"groups": {
+				"background":             { "fg": "material-palenight:base3", "bg": "material-palenight:base01", "attrs": [] },
+				"background:divider":     { "fg": "material-palenight:base2", "bg": "material-palenight:base01", "attrs": [] },
+				"mode":                   { "fg": "material-palenight:base3", "bg": "material-palenight:blue", "attrs": ["bold"] },
+				"modified_indicator":     { "fg": "material-palenight:yellow", "bg": "material-palenight:base2", "attrs": ["bold"] },
+				"paste_indicator":        { "fg": "material-palenight:base3", "bg": "material-palenight:orange", "attrs": ["bold"] },
+				"readonly_indicator":     { "fg": "material-palenight:red", "bg": "material-palenight:base2", "attrs": [] },
+				"branch":                 { "fg": "material-palenight:base01", "bg": "material-palenight:base2", "attrs": [] },
+				"branch:divider":         { "fg": "material-palenight:base00", "bg": "material-palenight:base2", "attrs": [] },
+				"file_directory":         { "fg": "material-palenight:base01", "bg": "material-palenight:base2", "attrs": [] },
+				"file_name":              { "fg": "material-palenight:base02", "bg": "material-palenight:base2", "attrs": ["bold"] },
+				"file_size":              { "fg": "material-palenight:base02", "bg": "material-palenight:base2", "attrs": [] },
+				"file_name_no_file":      { "fg": "material-palenight:base02", "bg": "material-palenight:base2", "attrs": ["bold"] },
+				"file_name_empty":        { "fg": "material-palenight:base02", "bg": "material-palenight:base2", "attrs": [] },
+				"file_format":            { "fg": "material-palenight:base2", "bg": "material-palenight:base01", "attrs": [] },
+				"file_vcs_status":        { "fg": "material-palenight:red", "bg": "material-palenight:base2", "attrs": [] },
+				"file_vcs_status_M":      { "fg": "material-palenight:yellow", "bg": "material-palenight:base2", "attrs": [] },
+				"file_vcs_status_A":      { "fg": "material-palenight:green", "bg": "material-palenight:base2", "attrs": [] },
+				"line_percent":           { "fg": "material-palenight:base3", "bg": "material-palenight:base1", "attrs": [] },
+				"line_percent_gradient":  { "fg": "material-palenight:base3", "bg": "material-palenight:base1", "attrs": [] },
+				"position":               { "fg": "material-palenight:base3", "bg": "material-palenight:base1", "attrs": [] },
+				"position_gradient":      { "fg": "material-palenight:base3", "bg": "material-palenight:base1", "attrs": [] },
+				"line_current":           { "fg": "material-palenight:base03", "bg": "material-palenight:base3", "attrs": ["bold"] },
+				"line_current_symbol":    { "fg": "material-palenight:base03", "bg": "material-palenight:base3", "attrs": [] },
+				"col_current":            { "fg": "material-palenight:base0", "bg": "material-palenight:base3", "attrs": [] }
+			}
+		},
+		"ic": {
+			"groups": {
+				"background":             { "fg": "material-palenight:base3", "bg": "material-palenight:base01", "attrs": [] },
+				"background:divider":     { "fg": "material-palenight:base2", "bg": "material-palenight:base01", "attrs": [] },
+				"mode":                   { "fg": "material-palenight:base3", "bg": "material-palenight:blue", "attrs": ["bold"] }
+			}
+		},
+		"ix": {
+			"groups": {
+				"background":             { "fg": "material-palenight:base3", "bg": "material-palenight:base01", "attrs": [] },
+				"background:divider":     { "fg": "material-palenight:base2", "bg": "material-palenight:base01", "attrs": [] },
+				"mode":                   { "fg": "material-palenight:base3", "bg": "material-palenight:blue", "attrs": ["bold"] }
+			}
+		},
+		"v": {
+			"groups": {
+				"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:orange", "attrs": ["bold"] }
+			}
+		},
+		"V": {
+			"groups": {
+				"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:orange", "attrs": ["bold"] }
+			}
+		},
+		"^V": {
+			"groups": {
+				"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:orange", "attrs": ["bold"] }
+			}
+		},
+		"R": {
+			"groups": {
+				"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:red", "attrs": ["bold"] }
+			}
+		},
+		"Rc": {
+			"groups": {
+				"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:red", "attrs": ["bold"] }
+			}
+		},
+		"Rx": {
+			"groups": {
+				"mode": { "fg": "material-palenight:base3", "bg": "material-palenight:red", "attrs": ["bold"] }
+			}
+		}
+	}
+}

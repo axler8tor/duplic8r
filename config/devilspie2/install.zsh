@@ -3,9 +3,9 @@
 _NOW=$(date +%y%m%d%H%M%S)
 if [[ -v XDG_CONFIG_HOME ]]
 then
-    _CONFIG_HOME="${XDG_CONFIG_HOME}/powerline"
+    _CONFIG_HOME="${XDG_CONFIG_HOME}/devilspie2"
 else
-    _CONFIG_HOME="${HOME}/.config/powerline"
+    _CONFIG_HOME="${HOME}/.config/devilspie2"
 fi
 
 # make backups
