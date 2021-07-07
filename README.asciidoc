@@ -88,6 +88,7 @@ accomplish every task.
 .Programming languages I am interested in
 * Reason
 * Nim
+* PowerShell
 
 .Goals
 * Know where to put what
