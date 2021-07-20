@@ -98,7 +98,6 @@ accomplish every task.
 == STARTUP ORDER ==
 When zsh starts it reads global configs that I don't mess with. I am interested
 the following ones:
-[cols="1,1"]
 |===
 | *File*       | *Startup*
 |_~/.zshenv_   | allways. It is read every time I USE a shell like
