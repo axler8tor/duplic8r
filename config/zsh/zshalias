@@ -3,7 +3,6 @@ alias fzf='fzf-tmux --height 40% --reverse --preview "bat --color=always {}" '
 # ls
 [[ $(uname) == Darwin ]] && alias lsi='gls -Isnap '
 [[ $(uname) == Linux ]] && alias lsi='ls -Isnap '
-# alias lsi='ls -Isnap '
 alias ls='lsi --classify --group-directories-first --sort=extension --color=auto '
 alias ll='ls -l '
 alias la='ls -A '
@@ -45,6 +44,8 @@ alias -g G='| grep '
 alias -g g='| grep -i '
 alias -g B='| bat '
 alias -g L='| less -N '
+alias -g C='| wc -l '
 
 # SUFFIX
 alias -s {asc,erl,ex,exs,htm{l},py,rebar,rs,txt}=gedit
+

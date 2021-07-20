@@ -7,6 +7,12 @@ autoload -Uz compinit
 compinit
 
 
+# FEATURES
+autoload edit-command-line
+zle -N edit-command-line
+bindkey -M vicmd v edit-command-line
+
+
 # SETTINGS
 HISTFILE=$HOME/.histfile
 HISTSIZE=1000
