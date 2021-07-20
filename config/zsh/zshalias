@@ -1,7 +1,7 @@
 # fzf
 alias fzf='fzf-tmux --height 40% --reverse --preview "bat --color=always {}" '
 # ls
-[[ $(uname) == Darwin ]] && alias lsi='gls -Isnap '
+[[ $(uname) == Darwin ]] && alias lsi='ls '
 [[ $(uname) == Linux ]] && alias lsi='ls -Isnap '
 alias ls='lsi --classify --group-directories-first --sort=extension --color=auto '
 alias ll='ls -l '

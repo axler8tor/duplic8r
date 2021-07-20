@@ -16,22 +16,19 @@ to configure my favourite Linux or macOS shell and gnome environment.
 
 
 == Table of Contents ==
-* <<Install, Install>>
-* <<Use, Use>>
-* <<Contribute, Contribute>>
-* <<License, License>>
-* <<Notes, Notes>>
+* <<_install, Install>>
+* <<_use, Use>>
+* <<_contribute, Contribute>>
+* <<_license, License>>
+* <<_notes, Notes>>
 
 
-[#Install]
 == Install ==
 
 
-[#Use]
 == Use ==
 
 
-[#Contribute]
 == Contribute ==
 
 === Copyright Waiver ===
@@ -40,13 +37,12 @@ to configure my favourite Linux or macOS shell and gnome environment.
 === Authors ===
 
 
-[#License]
 == License ==
 This is free and unencumbered public domain software. For more information, see
 http://unlicense.org/ or the accompanying UNLICENSE file.
 
 
-== Blah ==
+== Notes ==
 I use zsh on my own workstations and servers.  By far the most common shell I
 encounter in the wild is Bash.  In light of that, the rules I make here for use
 of zsh applies to my usage profile.

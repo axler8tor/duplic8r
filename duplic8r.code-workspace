@@ -12,6 +12,11 @@
 			"editor.wordWrap": "on",
 			"editor.quickSuggestions": false,
 			"editor.fontLigatures": false
+		},
+		"files.associations": {
+			"zshalias": "shellscript",
+			"zshfunction": "shellscript",
+			"zshprompt": "shellscript"
 		}
 	}
 }
