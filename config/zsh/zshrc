@@ -1,4 +1,4 @@
-# COMPLETION OPTIONS
+# COMPLETIONS
 zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' matcher-list 'm:{[:lower:]}={[:upper:]}' '+r:|[._-]=* r:|=*'
@@ -18,6 +18,17 @@ setopt pushd_to_home
 setopt append_history
 setopt bang_hist
 bindkey -v
+
+
+# DEFAULTS
+[[ -f $(which nvim) ]] && EDITOR=$(which nvim)
+[[ -f $(which nvim) ]] && VISUAL=$(which nvim)
+
+
+# APPLICATIONS
+[[ -f $HOME/.asdf/asdf.sh ]] && source $HOME/.asdf/asdf.sh
+[[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
+[[ -f $HOME/.bin/z.sh ]] && source $HOME/.bin/z.sh
 
 
 # CONFIGURATIONS
