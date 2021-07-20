@@ -24,6 +24,8 @@
     autosetuprebase = never
 [push]
     default = simple
-
 [gc]
 	autoDetach = false
+[pull]
+	rebase = false
+
