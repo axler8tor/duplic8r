@@ -8,3 +8,22 @@ if [[ -f $PIP3_HOME/powerline/bindings/zsh/powerline.zsh ]]; then
     source $PIP3_HOME/powerline/bindings/zsh/powerline.zsh
 fi
 
+
+# STUFF THAT MUST BE SET AFTER PROMPT
+if [[ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]
+then
+    ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+    source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
+
+if [[ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]]
+then
+    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
+    source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi
+
+if [[ -f $HOME/.zsh-hsmw/history-search-multi-word.plugin.zsh ]]
+then
+    source $HOME/.zsh-hsmw/history-search-multi-word.plugin.zsh
+fi
+
