@@ -14,15 +14,21 @@ bindkey -M vicmd v edit-command-line
 
 
 # SETTINGS
-HISTFILE=$HOME/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=65536
+export SAVEHIST=$HISTSIZE
+setopt append_history
+setopt bang_hist
+setopt extended_history
+setopt share_history
+setopt hist_expire_dups_first
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_space
 setopt autocd
 setopt no_beep
 setopt pushd_silent
 setopt pushd_to_home
-setopt append_history
-setopt bang_hist
 bindkey -v
 
 
@@ -41,23 +47,4 @@ bindkey -v
 [[ -f $HOME/.zshfunction ]] && source $HOME/.zshfunction
 [[ -f $HOME/.zshalias ]] && source $HOME/.zshalias
 [[ -f $HOME/.zshprompt ]] && source $HOME/.zshprompt
-
-
-# STUFF THAT MUST BE SET AFTER PROMPT
-if [[ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]
-then
-    ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
-    source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
-
-if [[ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]]
-then
-    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
-    source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-fi
-
-if [[ -f $HOME/.zsh-hsmw/history-search-multi-word.plugin.zsh ]]
-then
-    source $HOME/.zsh-hsmw/history-search-multi-word.plugin.zsh
-fi
 
