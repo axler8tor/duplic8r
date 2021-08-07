@@ -1,13 +1,10 @@
-# fzf
 alias fzf='fzf-tmux --height 40% --reverse --preview "bat --color=always {}" '
-# ls
 [[ $(uname) == Darwin ]] && alias lsi='ls '
 [[ $(uname) == Linux ]] && alias lsi='ls -Isnap '
 alias ls='lsi --classify --group-directories-first --sort=extension --color=auto '
 alias ll='ls -l '
 alias la='ls -A '
 alias l='ls -1 '
-# cd, push & pop
 alias ..='cd .. '
 alias ...='cd ../../ '
 alias ....='cd ../../../ '
@@ -15,7 +12,10 @@ alias .....='cd ../../../../ '
 alias stack='dirs -v '
 alias pushd='pushd -q '
 alias popd='popd -q '
-# man
+alias lnvim=' nvim -c "set background=light" '
+alias kitty=' kitty --title=kiTTY --detach '
+alias tree=' tree -I snap --dirsfirst '
+[[ thefuck ]] && eval $(thefuck --alias)
 man() {
     # dynamically adjust the width of the man display
     MANWIDTH="$(( COLUMNS > 93 ? 90 : COLUMNS - 3 ))" command man $*
@@ -36,16 +36,29 @@ mans() {
         man $*
     fi
 }
-# nvim
-alias lnvim='nvim -c "set background=light" '
+term() {
+    HELP="\nsynopsis:
+    term [<profile>] [<geometry>]
+
+    <profile>   'l' for light or 'd','' for dark
+    <geometry>  COLSxLINES[+Y+X]\n"
+    [[ "${1}" == "help" ]] && echo "${HELP}" && return 0
+
+    [[ "${1}" == "l" ]] && PROFILE="Solarized Light" || PROFILE="Solarized Dark"
+    GEOMETRY="${2:-150x50+400+500}"
+    gnome-terminal --geometry="${GEOMETRY}" --window-with-profile="${PROFILE}"
+}
+
 
 # GLOBAL
-alias -g G='| grep '
-alias -g g='| grep -i '
 alias -g B='| bat '
-alias -g L='| less -N '
 alias -g C='| wc -l '
+alias -g G='| grep '
+alias -g L='| less -N '
+alias -g S='| sort '
+alias -g U='| uniq '
+alias -g g='| grep -i '
 
 # SUFFIX
-alias -s {asc,erl,ex,exs,htm{l},py,rebar,rs,txt}=gedit
+alias -s {asc,cs,erl,ex,exs,fs,htm{l},py,rebar,rs,txt}=gedit
 
