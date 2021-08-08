@@ -94,17 +94,18 @@ accomplish every task.
 == STARTUP ORDER ==
 When zsh starts it reads global configs that I don't mess with. I am interested
 the following ones:
+[cols=">1e,5"]
 |===
-| *File*       | *Startup*
-|_~/.zshenv_   | allways. It is read every time I USE a shell like
+| *File*       | *Read*
+|_~/.zshenv_   | *Allways*. It is read every time I USE a shell like
                  running a script.
-|_~/.zprofile_ | if it is a login shell — i.e. I have logged in via
-                 ssh or GDM and opened a shell (terminal). Running
+|_~/.zprofile_ | If this is a *login shell* — i.e. I have logged in
+                 via ssh or GDM and opened a shell (terminal). Running
                  a shell, not logged in, would be a script kicked
                  off by cron at 03:00 while I am logged off and
                  fast asleep in bed. In that case, ~/.zprofile will
                  NOT be read. It is read every time I open a shell.
-|_~/.zshrc_    | if it is an interactive shell — i.e. I can type
+|_~/.zshrc_    | If this is an *interactive shell* — i.e. I can type
                  commands in a terminal and see the results. It is
                  read every time I open a shell.
 |_~/.zshlogin_ | if it is a login shell. It is read every time I
